@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A73C9DF225A073D600E34091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C9DF125A073D600E34091 /* AppDelegate.swift */; };
+		A73C9DF425A073D600E34091 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C9DF325A073D600E34091 /* ViewController.swift */; };
+		A73C9DF725A073D600E34091 /* NiftyTools.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A73C9DF525A073D600E34091 /* NiftyTools.xcdatamodeld */; };
+		A73C9DF925A073D800E34091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73C9DF825A073D800E34091 /* Assets.xcassets */; };
+		A73C9DFC25A073D800E34091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73C9DFA25A073D800E34091 /* Main.storyboard */; };
+		A73C9E0725A07B5000E34091 /* TextNSVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C9E0625A07B5000E34091 /* TextNSVC.swift */; };
+		A7A7118F25DEB55800C95E23 /* SF-Pro-Rounded-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = A7A7118625DEB55100C95E23 /* SF-Pro-Rounded-Black.otf */; };
+		A7A7119025DEB55800C95E23 /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A7A7118A25DEB55200C95E23 /* SF-Pro-Rounded-Regular.otf */; };
+		A7A7119125DEB55800C95E23 /* SF-Pro-Rounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A7A7118E25DEB55200C95E23 /* SF-Pro-Rounded-Light.otf */; };
+		A7A7119225DEB55800C95E23 /* SF-Pro-Rounded-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = A7A7118C25DEB55200C95E23 /* SF-Pro-Rounded-Heavy.otf */; };
+		A7A7119325DEB55800C95E23 /* SF-Pro-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A7A7118D25DEB55200C95E23 /* SF-Pro-Rounded-Medium.otf */; };
+		A7A7119425DEB55800C95E23 /* SF-Pro-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A7A7118925DEB55100C95E23 /* SF-Pro-Rounded-Bold.otf */; };
+		A7A7119525DEB55800C95E23 /* SF-Pro-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A7A7118725DEB55100C95E23 /* SF-Pro-Rounded-Semibold.otf */; };
+		A7A7119625DEB55800C95E23 /* SF-Pro-Rounded-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = A7A7118825DEB55100C95E23 /* SF-Pro-Rounded-Thin.otf */; };
+		A7A7119725DEB55800C95E23 /* SF-Pro-Rounded-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = A7A7118B25DEB55200C95E23 /* SF-Pro-Rounded-Ultralight.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A73C9DEE25A073D600E34091 /* NiftyTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiftyTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73C9DF125A073D600E34091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A73C9DF325A073D600E34091 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A73C9DF625A073D600E34091 /* NiftyTools.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NiftyTools.xcdatamodel; sourceTree = "<group>"; };
+		A73C9DF825A073D800E34091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A73C9DFB25A073D800E34091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A73C9DFD25A073D800E34091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73C9DFE25A073D800E34091 /* NiftyTools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NiftyTools.entitlements; sourceTree = "<group>"; };
+		A73C9E0625A07B5000E34091 /* TextNSVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextNSVC.swift; sourceTree = "<group>"; };
+		A7A7118625DEB55100C95E23 /* SF-Pro-Rounded-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Black.otf"; sourceTree = "<group>"; };
+		A7A7118725DEB55100C95E23 /* SF-Pro-Rounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Semibold.otf"; sourceTree = "<group>"; };
+		A7A7118825DEB55100C95E23 /* SF-Pro-Rounded-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Thin.otf"; sourceTree = "<group>"; };
+		A7A7118925DEB55100C95E23 /* SF-Pro-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Bold.otf"; sourceTree = "<group>"; };
+		A7A7118A25DEB55200C95E23 /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
+		A7A7118B25DEB55200C95E23 /* SF-Pro-Rounded-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Ultralight.otf"; sourceTree = "<group>"; };
+		A7A7118C25DEB55200C95E23 /* SF-Pro-Rounded-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Heavy.otf"; sourceTree = "<group>"; };
+		A7A7118D25DEB55200C95E23 /* SF-Pro-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Medium.otf"; sourceTree = "<group>"; };
+		A7A7118E25DEB55200C95E23 /* SF-Pro-Rounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Light.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A73C9DEB25A073D600E34091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A73C9DE525A073D600E34091 = {
+			isa = PBXGroup;
+			children = (
+				A73C9DF025A073D600E34091 /* NiftyTools */,
+				A73C9DEF25A073D600E34091 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A73C9DEF25A073D600E34091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A73C9DEE25A073D600E34091 /* NiftyTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A73C9DF025A073D600E34091 /* NiftyTools */ = {
+			isa = PBXGroup;
+			children = (
+				A7A7118625DEB55100C95E23 /* SF-Pro-Rounded-Black.otf */,
+				A7A7118925DEB55100C95E23 /* SF-Pro-Rounded-Bold.otf */,
+				A7A7118C25DEB55200C95E23 /* SF-Pro-Rounded-Heavy.otf */,
+				A7A7118E25DEB55200C95E23 /* SF-Pro-Rounded-Light.otf */,
+				A7A7118D25DEB55200C95E23 /* SF-Pro-Rounded-Medium.otf */,
+				A7A7118A25DEB55200C95E23 /* SF-Pro-Rounded-Regular.otf */,
+				A7A7118725DEB55100C95E23 /* SF-Pro-Rounded-Semibold.otf */,
+				A7A7118825DEB55100C95E23 /* SF-Pro-Rounded-Thin.otf */,
+				A7A7118B25DEB55200C95E23 /* SF-Pro-Rounded-Ultralight.otf */,
+				A73C9DF125A073D600E34091 /* AppDelegate.swift */,
+				A73C9DF325A073D600E34091 /* ViewController.swift */,
+				A73C9E0625A07B5000E34091 /* TextNSVC.swift */,
+				A73C9DF825A073D800E34091 /* Assets.xcassets */,
+				A73C9DFA25A073D800E34091 /* Main.storyboard */,
+				A73C9DFD25A073D800E34091 /* Info.plist */,
+				A73C9DFE25A073D800E34091 /* NiftyTools.entitlements */,
+				A73C9DF525A073D600E34091 /* NiftyTools.xcdatamodeld */,
+			);
+			path = NiftyTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A73C9DED25A073D600E34091 /* NiftyTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73C9E0125A073D800E34091 /* Build configuration list for PBXNativeTarget "NiftyTools" */;
+			buildPhases = (
+				A73C9DEA25A073D600E34091 /* Sources */,
+				A73C9DEB25A073D600E34091 /* Frameworks */,
+				A73C9DEC25A073D600E34091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiftyTools;
+			productName = NiftyTools;
+			productReference = A73C9DEE25A073D600E34091 /* NiftyTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A73C9DE625A073D600E34091 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					A73C9DED25A073D600E34091 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = A73C9DE925A073D600E34091 /* Build configuration list for PBXProject "NiftyTools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A73C9DE525A073D600E34091;
+			productRefGroup = A73C9DEF25A073D600E34091 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A73C9DED25A073D600E34091 /* NiftyTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A73C9DEC25A073D600E34091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73C9DF925A073D800E34091 /* Assets.xcassets in Resources */,
+				A7A7119425DEB55800C95E23 /* SF-Pro-Rounded-Bold.otf in Resources */,
+				A7A7119325DEB55800C95E23 /* SF-Pro-Rounded-Medium.otf in Resources */,
+				A7A7119725DEB55800C95E23 /* SF-Pro-Rounded-Ultralight.otf in Resources */,
+				A7A7119625DEB55800C95E23 /* SF-Pro-Rounded-Thin.otf in Resources */,
+				A7A7119125DEB55800C95E23 /* SF-Pro-Rounded-Light.otf in Resources */,
+				A7A7119225DEB55800C95E23 /* SF-Pro-Rounded-Heavy.otf in Resources */,
+				A7A7119025DEB55800C95E23 /* SF-Pro-Rounded-Regular.otf in Resources */,
+				A73C9DFC25A073D800E34091 /* Main.storyboard in Resources */,
+				A7A7119525DEB55800C95E23 /* SF-Pro-Rounded-Semibold.otf in Resources */,
+				A7A7118F25DEB55800C95E23 /* SF-Pro-Rounded-Black.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A73C9DEA25A073D600E34091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73C9E0725A07B5000E34091 /* TextNSVC.swift in Sources */,
+				A73C9DF725A073D600E34091 /* NiftyTools.xcdatamodeld in Sources */,
+				A73C9DF425A073D600E34091 /* ViewController.swift in Sources */,
+				A73C9DF225A073D600E34091 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A73C9DFA25A073D800E34091 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73C9DFB25A073D800E34091 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A73C9DFF25A073D800E34091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A73C9E0025A073D800E34091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A73C9E0225A073D800E34091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NiftyTools/NiftyTools.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EF43AHQ8L4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = NiftyTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielAWahby.NiftyTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A73C9E0325A073D800E34091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NiftyTools/NiftyTools.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EF43AHQ8L4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = NiftyTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielAWahby.NiftyTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A73C9DE925A073D600E34091 /* Build configuration list for PBXProject "NiftyTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73C9DFF25A073D800E34091 /* Debug */,
+				A73C9E0025A073D800E34091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A73C9E0125A073D800E34091 /* Build configuration list for PBXNativeTarget "NiftyTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73C9E0225A073D800E34091 /* Debug */,
+				A73C9E0325A073D800E34091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A73C9DF525A073D600E34091 /* NiftyTools.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A73C9DF625A073D600E34091 /* NiftyTools.xcdatamodel */,
+			);
+			currentVersion = A73C9DF625A073D600E34091 /* NiftyTools.xcdatamodel */;
+			path = NiftyTools.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A73C9DE625A073D600E34091 /* Project object */;
+}
